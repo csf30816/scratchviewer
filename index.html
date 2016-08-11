@@ -166,11 +166,11 @@
     } else {
       id = '';
     }
-    document.title = 'phosphorus';
+    document.title = 'ScratchViewer';
     P.player.load(id, function(stage) {
       stage.triggerGreenFlag();
     }, function(title) {
-      document.title = title ? title + ' \xb7 phosphorus' : 'phosphorus';
+      document.title = title ? title + ' \xb7 ScratchViewer' : 'ScratchViewer';
       updateBugLink();
     });
     projectLink.href = P.player.projectURL;
@@ -179,7 +179,7 @@
     updateEmbedCode();
   }
   function updateBugLink() {
-    bugLink.href = P.player.projectId ? 'https://github.com/nathan/phosphorus/issues/new?title=' + encodeURIComponent(P.player.projectTitle || P.player.projectURL) + '&body=' + encodeURIComponent('\n\n\n' + P.player.projectURL + '\nhttp://phosphorus.github.io/#' + P.player.projectId + '\n' + navigator.userAgent) : 'https://github.com/nathan/phosphorus/issues/new?body=' + encodeURIComponent('\n\n\n' + navigator.userAgent);
+    bugLink.href = P.player.projectId ? 'https://github.com/csf30816/scratchviewer/issues/new?title=' + encodeURIComponent(P.player.projectTitle || P.player.projectURL) + '&body=' + encodeURIComponent('\n\n\n' + P.player.projectURL + '\nhttp://scratchviewer.usa.cc/#' + P.player.projectId + '\n' + navigator.userAgent) : 'https://github.com/csf30816/acratchviewer/issues/new?body=' + encodeURIComponent('\n\n\n' + navigator.userAgent);
   }
   function updatePackageLink() {
     packageLink.href = P.player.projectId ? '/app.html?id=' + P.player.projectId + '&turbo=' + packageTurbo.checked + '&full-screen=' + packageFullScreen.checked : 'about:blank';
