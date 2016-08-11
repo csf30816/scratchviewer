@@ -33,13 +33,25 @@ body {
 
 a {
   color: #25d;
+  transition: 0.15s all ease-out;
   text-decoration: underline;
 }
 a:visited {
   color: #73c;
+  transition: 0.15s all ease-in;
 }
 a:active {
+  transition: 0.15s all ease-in;
   color: #03a;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  background-color: #ddd;
+  background-color: rgba(0,0,0,0.2);
+}
+a:hover {
+  transition: 0.15s all ease;
+  color: #1C96D3;
 }
 .dropdown {
   display: inline-block;
