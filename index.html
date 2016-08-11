@@ -1,13 +1,13 @@
 <!doctype html>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width, initial-scale=1.0">
-<title>phosphorus</title>
-<link rel=stylesheet href=player.css>
-<link rel=stylesheet href=index.css>
+<title>Scratch Viewer</title>
+<link rel=stylesheet href='https://csf30816.github.io/scratchviewer/player.css'>
+<link rel=stylesheet href='https://csf30816.github.io/scratchviewer/index.css'>
 
 <div class=area id=title-area>
-<h1 class=title>phosphorus</h1>
-<p>phosphorus runs your Scratch projects really fast by compiling them to JavaScript. Try it out by pasting a URL or project ID into the field below or <a class=dropdown>choosing an example<select id=examples>
+<h1 class=title>ScratchViewer</h1>
+<p>Scratch Viewer runs your Scratch projects really fast by compiling them to JavaScript. Try it out by pasting a URL or project ID into the field below or <a class=dropdown>choosing an example<select id=examples>
   <option value>
   <option value=11397100>3D Remix by DadOfMrLog
   <option value=15945630>O by DCPU-16
@@ -68,22 +68,22 @@
 </section>
 <section>
   <h1>Report a problem</h1>
-  <p>phosphorus is still in development. <a id=bug-link target=_blank href=https://github.com/nathan/phosphorus/issues/new>Click here</a> to report a problem with this project.</p>
+  <p>phosphorus is still in development. <a id='bug-link' target='_blank' href='https://github.com/cf30816/scratchviewer/issues/new'>Click here</a> to report a problem with this project.</p>
 </section>
 </div>
 <section>
   <h1>Credits</h1>
-  <p>phosphorus was created by <a href=https://github.com/nathan>Nathan Dinsmore</a>. Its CPS-style compilation and overall design was inspired by <a href=https://github.com/RHY3756547>Rhys Simpson</a>'s <a href=https://code.google.com/p/sb2-js/>sb2.js</a>. It would have more bugs if not for <a href=https://github.com/trumank>Truman Kilen</a>. It uses the <a href=http://stuk.github.io/jszip/>JSZip</a> library, created by <a href=https://github.com/stuk>Stuart Knightley</a>, <a href=https://github.com/dduponchel>David Duponchel</a>, Franz Buchinger, and <a href=https://github.com/aadsm>António Afonso</a>, to read <code>.sb2</code> files and compressed projects, and the <a href=https://code.google.com/p/canvg/>canvg</a> library, created by <a href=https://code.google.com/u/gabelerner@gmail.com/>Gabe Lerner</a>, to render SVGs in <code>&lt;canvas&gt;</code> elements.
+  <p>Scratchviewer is and edited version of Phosphorus by <a href='https://github.com/nathan'>Nathan Dinsmore</a>, but was edited by <a href='https://github.com/csf30816'>Csf30816</a>.
   <h1>Code</h1>
-  <p>The source code for phosphorus is available <a href=https://github.com/nathan/phosphorus>on GitHub</a>.</p>
+  <p>The source code for phosphorus is available <a href='https://github.com/csf30816/scratchviewer'>on GitHub</a>.</p>
 </section>
 <script src=fonts.js></script>
 <script src=//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.js></script>
 <script src=//canvg.googlecode.com/svn/trunk/rgbcolor.js></script>
 <script src=//canvg.googlecode.com/svn/trunk/StackBlur.js></script>
 <script src=//canvg.googlecode.com/svn/trunk/canvg.js></script>
-<script src=phosphorus.js></script>
-<script src=player.js></script>
+<script src='phosphorus.js'></script>
+<script src='player.js'></script>
 <script>
 (function() {
   'use strict';
