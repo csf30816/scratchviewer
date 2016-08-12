@@ -86,6 +86,7 @@
 <script src='player.js'></script>
 <script>
 (function() {
+  document.getElementById('title').innerHTML = id;
   'use strict';
   if (location.protocol === 'https:') {
     location.replace(('' + location).replace(/^https:/, 'http:'));
@@ -242,5 +243,4 @@
     }
   });
 }());
-document.getElementById('title').innerHTML = id;
 </script>
