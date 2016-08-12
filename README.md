@@ -5,3 +5,4 @@ Thanks to Phosphorus, and the Phosphorus Team for the origonal source code modif
 
 - Added new CSS layout for player
 
+- Added new Favicon.ico file. Resembles the Green Flag, the symbol of running Scratch
