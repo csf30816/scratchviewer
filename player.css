@@ -23,6 +23,7 @@
   position: relative;
   height: 32px;
   background-color: #DFDFDF;
+  background-image: linear-gradient(to bottom, #F7F7F7, #D5D5D5);
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   margin-left: -1px;
