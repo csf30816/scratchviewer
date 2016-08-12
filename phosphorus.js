@@ -298,7 +298,7 @@ var P = (function() {
       if (m) {
         var d = document.createElement('div');
         d.innerHTML = m[1];
-        document.getElementsByClassName('title').innerHTML = '123';
+        document.getElementById('title').innerHTML = '123';
         request.load(d.innerText);
       } else {
         request.error(new Error('No title'));
