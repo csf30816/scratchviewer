@@ -16,6 +16,7 @@ P.player = (function() {
   var pause = document.querySelector('.pause');
   var stop = document.querySelector('.stop');
   var fullScreen = document.querySelector('.full-screen');
+  var name = document.querySelector('.title');
 
   var error = document.querySelector('.internal-error');
   var errorBugLink = document.querySelector('#error-bug-link');
