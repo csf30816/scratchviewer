@@ -86,7 +86,6 @@
 <script src='player.js'></script>
 <script>
 (function() {
-  document.getElementById('title').innerHTML = id;
   'use strict';
   if (location.protocol === 'https:') {
     location.replace(('' + location).replace(/^https:/, 'http:'));
@@ -132,6 +131,7 @@
     if (P.player.projectId !== id) {
       timeout = setTimeout(function() {
         location.hash = '#' + id;
+        document.getElementById('title').innerHTML = id;
       }, 300);
     }
   });
