@@ -131,7 +131,6 @@
     if (P.player.projectId !== id) {
       timeout = setTimeout(function() {
         location.hash = '#' + id;
-        document.getElementById('title').innerHTML = id;
       }, 300);
     }
   });
@@ -173,6 +172,7 @@
       stage.triggerGreenFlag();
     }, function(title) {
       document.title = title ? title + ' \xb7 ScratchViewer' : 'ScratchViewer';
+      document.getElementById('title').innerHTML = title;
       updateBugLink();
     });
     projectLink.href = P.player.projectURL;
