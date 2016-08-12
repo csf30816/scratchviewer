@@ -80,6 +80,9 @@ a:hover {
 #player-area {
   border-bottom: 1px solid transparent;
   margin-bottom: -1px;
+  background-color: #ddd;
+  border-radius: 10px;
+  padding-bottom: 24px;
 }
 .fs #player-area {
   overflow: visible;
