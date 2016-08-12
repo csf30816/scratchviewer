@@ -1,3 +1,9 @@
+<style>
+  body {
+   background-color: blue;
+  }
+</style>
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -73,13 +79,13 @@
      inkscape:groupmode="layer"
      transform="translate(0,64)">
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#009C2C;fill-opacity:1;stroke:none"
        d="m 10,-41 0,-14 2,0 0,14 z"
        id="path2995"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#009C2C;fill-opacity:1;stroke:none"
        d="m 12,-54 c 0,0 3,-1 5,1 2,2 5,1 5,1 l 0,8 c 0,0 -3,1 -5,-1 -2,-2 -5,-1 -5,-1 z"
        id="path3765"
        inkscape:connector-curvature="0"
@@ -91,13 +97,13 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#000;fill-opacity:1;stroke:none"
        d="m 49,-55 4,0 0,14 -4,0 z"
        id="path3817"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#CA0000;fill-opacity:1;stroke:none"
        d="m 109,-41 6,0 4,-4 0,-6 -4,-4 -6,0 -4,4 0,6 z"
        id="path3821"
        inkscape:connector-curvature="0"
@@ -120,7 +126,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:000000;fill-opacity:1;stroke:none"
        d="m 151,-55 0,5.5 -2,-2 -2.5,2.5 -0.65587,-0.655869 L 145,-50.5 l 2.5,-2.5 -2,-2 z"
        id="path3936"
        inkscape:connector-curvature="0"
