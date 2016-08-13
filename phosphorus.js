@@ -2891,7 +2891,7 @@ P.compile = (function() {
 
       } else if (block[0] === 'call') {
 
-        if (DEBUG && block[1] === 'phosphorus: debug') {
+        if (DEBUG && block[1] === 'scratchviewer: debug') {
           source += 'debugger;\n';
         } else {
           source += 'call(' + val(block[1]) + ', ' + nextLabel() + ', [';
