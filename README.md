@@ -8,7 +8,7 @@ Thanks to Phosphorus, and the Phosphorus Team for the origonal source code modif
 - Added new Favicon.ico file. Resembles the Green Flag, the symbol of running Scratch
 
 ## Coming Soon
-- Loving and Favoriting projects
+- ♥ and ★ projects
 
 - Cloud Data
 
