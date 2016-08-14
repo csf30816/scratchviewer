@@ -11,3 +11,7 @@ Thanks to Phosphorus, and the Phosphorus Team for the origonal source code modif
 - Loving and Favoriting projects
 
 - Cloud Data
+
+- Seing the creators name
+
+- Following the creator
