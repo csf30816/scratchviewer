@@ -655,7 +655,7 @@ var P = (function() {
   Base.prototype.addVariables = function(variables) {
     for (var i = 0; i < variables.length; i++) {
       if (variables[i].isPeristent) {
-        throw new Error('Cloud variables are not supported');
+        
       }
       this.vars[variables[i].name] = variables[i].value;
     }
