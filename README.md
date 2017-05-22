@@ -5,11 +5,13 @@ Thanks to Phosphorus, and the Phosphorus Team for the origonal source code modif
 View Scratch in style. You can also view Scratch Projects on mobile devices. Anothere amazing thing is viewing unshared projects.
 
 ## Updates
-- Added SVG viewing in projects, for phosphorus did not have that working
+- Added SVG viewing in projects, for phosphorus did not have that working (Edit: phosphorus creator fixed this issue on phosphorus.
 
 - Added new CSS layout for player
 
 - Added new Favicon.ico file. Resembles the Green Flag, the symbol of running Scratch
+
+- Added viewing project name
 
 ## Coming Soon
 - ♥ and ★ projects
